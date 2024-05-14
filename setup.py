@@ -39,7 +39,7 @@ with io.open('README.md', 'rt', encoding="utf-8") as readme_file:
 
 setup(
     name='jsonobject',
-    version='2.1.0',
+    version='2.1.1',
     author='Danny Roberts',
     author_email='droberts@dimagi.com',
     description='A library for dealing with JSON as python objects',
@@ -59,6 +59,7 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
         'License :: OSI Approved :: BSD License',
     ),
 )
